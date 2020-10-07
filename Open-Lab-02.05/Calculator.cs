@@ -6,7 +6,11 @@ namespace Open_Lab_02._05
     {
         public bool DivisibleByFive(int number)
         {
-            throw new NotImplementedException();
+            bool je;
+            je = false;
+            if (number % 5 == 0)
+            { je = true; };
+            return je;
         }
     }
 }
